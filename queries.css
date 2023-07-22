@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1000px) {
+  .sidebar ul li {
+    display: block;
+    position: relative;
+    z-index: 200;
+    text-align: center;
+    padding: 10px;
+  }
+  .side_nav {
+    width: 50%;
+    height: 400px;
+    z-index: 100;
+    background-color: none;
+  }
+
+  .mobile-nav-back {
+    height: 200px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid #ccbfbf;
+
+    top: 0;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+
+    z-index: 200;
+    position: fixed;
+
+    top: 70px;
+    right: 2px;
+    border: 2px solid red;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header-img h1 img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    display: block;
+  }
+}
+@media (max-width: 900px) {
+  .about-us {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 430px;
+  }
+  .about-us p {
+    height: 300px;
+    width: 700px;
+    margin-left: 30px;
+    font-size: 1.6rem;
+    float: left;
+  }
+}
+@media (max-width: 1000px) {
+  .rectangle {
+    height: 1320px;
+  }
+  .rectangle h2 {
+    width: 75%;
+    margin-top: 60px;
+  }
+  #menu-svg span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  #menu-svg ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .photo-galery ul {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 450px;
+    margin: 0 auto;
+  }
+  .photo-galery li {
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .contact {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  .contact h2 {
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 280px;
+  }
+  .contact p {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 290px;
+  }
+  .btn {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .rew2.low {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    margin-left: 560px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .images ul {
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+}
